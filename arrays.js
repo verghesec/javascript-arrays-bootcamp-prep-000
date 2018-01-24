@@ -31,3 +31,8 @@ function destructivelyRemoveElementFromBeginningOfArray(fArray) {
 function removeElementFromBeginningOfArray(fArray) {
   return fArray.slice(1);
 }
+
+function destructivelyRemoveElementFromEndOfArray(fArray) {
+  fArray.pop();
+  return fArray;
+}
