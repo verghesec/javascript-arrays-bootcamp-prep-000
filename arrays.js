@@ -6,7 +6,8 @@ function addElementToBeginningOfArray(fArray,fElement) {
 }
 
 function destructivelyAddElementToBeginningOfArray(fArray,fElement) {
-  return fArray.unshift(fElement);
+  fArray.unshift(fElement);
+  return fArray;
 }
 
 function addElementToEndOfArray(fArray,fElement) {
