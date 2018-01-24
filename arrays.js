@@ -18,3 +18,7 @@ function destructivelyAddElementToEndOfArray(fArray,fElement) {
   fArray.push(fElement);
   return fArray;
 }
+
+function accessElementInArray(fArray,fIndex) {
+  return fArray[fIndex];
+}
