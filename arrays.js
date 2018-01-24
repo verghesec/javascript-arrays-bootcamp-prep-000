@@ -22,3 +22,8 @@ function destructivelyAddElementToEndOfArray(fArray,fElement) {
 function accessElementInArray(fArray,fIndex) {
   return fArray[fIndex];
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(fArray) {
+  fArray.shift();
+  return fArray;
+}
